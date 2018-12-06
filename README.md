@@ -230,3 +230,10 @@ my_people: @map(["bob", "cat"], ($name) => {
 - spec verification of "valid concourse file", "valid cf manifest", "valid bosh manifest"
 - in context error display... errors should show the context of their errors and how to attempt a fix.
 - clojurescript or clojure?
+- test pipeline
+- live playground
+- live repl
+- website
+- cli tool
+- example projects ( standard repos with examples )
+- semantic commits
