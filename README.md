@@ -106,6 +106,7 @@ Only accepts yaml docs, and puts them in place.
 
 $people = @include("people.yml")
 
+@including("") # will yield a warning; do we want this?
 ```
 
 ## Variables
