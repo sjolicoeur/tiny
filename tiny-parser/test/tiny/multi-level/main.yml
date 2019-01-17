@@ -1,0 +1,18 @@
+---
+lair:
+  rooms:
+    - name: lounge room
+      layout: pool-side
+    - name: entertainment
+      layout: bond vilain
+    - name: science lab
+      layout: lab
+      contents:
+      # preserve indentation
+        @include(@env-var("LASER-STATUS")) # LASER-STATUS => should be the path of the desired yaml file
+            setting: burn
+        - phaser:
+            setting: stun
+            active: true
+    # be imported at this level
+    @import("evil-lair-blueprints.tiny")

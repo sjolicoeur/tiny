@@ -1,0 +1,11 @@
+lair:
+  rooms:
+    - name: shark room
+      layout: pool-side
+    - name: entertainment
+      layout: bond vilain
+    - name: science lab
+      layout: lab
+      contents: 
+        - laser:
+            active:

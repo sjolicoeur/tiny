@@ -1,0 +1,3 @@
+- laser:
+    frequency: 20Hz
+    active: true

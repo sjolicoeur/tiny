@@ -1,0 +1,7 @@
+$name->room = @($name) => {
+   - name: room $name
+     type: $name
+     layout: room of type $name
+}
+
+@map($name->room, ["sharks", "clown", "mimes in a box", "moose in a room"])
