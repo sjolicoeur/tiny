@@ -21,7 +21,7 @@ FIXME: explanation
 
     ```
     lein repl
-    > (use 'midje.repl')
+    > (use 'midje.repl)
     > (autotest)
     ```
 
